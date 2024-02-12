@@ -12,29 +12,29 @@
 			"customDuotone": false,
 			"palette": [
 				{
-					"slug": "base",
-					"color": "#1e1e1e",
-					"name": "Base"
+					"slug": "text-white",
+					"color": "#FFFFFF",
+					"name": "white"
 				},
 				{
-					"slug": "contrast",
-					"color": "#f0f0f0",
+					"slug": "contrast-purple",
+					"color": "#70177728",
 					"name": "Contrast"
 				},
 				{
-					"slug": "primary",
-					"color": "#0073aa",
+					"slug": "primary-purple",
+					"color": "#8A1B93",
 					"name": "Primary"
 				},
 				{
-					"slug": "secondary",
-					"color": "#00a0d2",
-					"name": "Secondary"
+					"slug": "highlight-orange",
+					"color": "#F7AA11",
+					"name": "highlight"
 				},
 				{
-					"slug": "transparent",
-					"color": "transparent",
-					"name": "Transparent"
+					"slug": "off-black",
+					"color": "#350F38",
+					"name": "offBlack"
 				}
 			],
 			"gradients": [
