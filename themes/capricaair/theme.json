@@ -62,19 +62,30 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"name": "System",
-					"slug": "system",
-					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
+					"name": "Primary",
+					"slug": "primary",
+					"fontFamily": "'Arcane Nine',sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Arcane Nine",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/ArcnaeNine.otf"]
+						}
+					]
 				},
 				{
-					"name": "Serif",
-					"slug": "serif",
-					"fontFamily": "\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif"
-				},
-				{
-					"name": "Monospace",
-					"slug": "monospace",
-					"fontFamily": "Consolas,Menlo,Monaco,\"SF Mono\",\"DejaVu Sans Mono\",\"Roboto Mono\",\"Courier New\",Courier,monospace"
+					"name": "Body",
+					"slug": "body",
+					"fontFamily": "Ubuntu, serif",
+					"fontFace": [
+						{
+							"fontFamily": "Ubuntu",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": ["https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"]
+						}
+					]
 				}
 			],
 			"fontSizes": [
