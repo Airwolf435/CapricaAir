@@ -39,14 +39,14 @@
 			],
 			"gradients": [
 				{
-					"slug": "primary-white",
-					"gradient": "linear-gradient(#0073aa 49.9%,#fff 50%)",
-					"name": "Primary color to white"
+					"slug": "primary-transparent",
+					"gradient": "linear-gradient(180deg, #6A1671 22%, rgba(0, 0, 0, 0) 100%);",
+					"name": "Primary to transparent"
 				},
 				{
-					"slug": "white-primary",
-					"gradient": "linear-gradient(#fff 49.9%,#0073aa 50%)",
-					"name": "Horizontal white to Primary color"
+					"slug": "panel-primary-to-transparent",
+					"gradient": "linear-gradient(180deg, #6A1671 28%, rgba(106, 22, 113, 0) 100%)",
+					"name": "Panel version of primary to transparent"
 				}
 			]
 		},
