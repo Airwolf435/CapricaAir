@@ -29,4 +29,8 @@ html {
 body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
+	background-image: url("./assets/images/websiteBackground.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
