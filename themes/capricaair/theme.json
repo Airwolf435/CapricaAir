@@ -12,59 +12,47 @@
 			"customDuotone": false,
 			"palette": [
 				{
-					"slug": "base",
-					"color": "#1e1e1e",
-					"name": "Base"
+					"slug": "text-white",
+					"color": "#FFFFFF",
+					"name": "white"
 				},
 				{
-					"slug": "contrast",
-					"color": "#f0f0f0",
+					"slug": "contrast-purple",
+					"color": "#70177728",
 					"name": "Contrast"
 				},
 				{
-					"slug": "primary",
-					"color": "#0073aa",
+					"slug": "primary-purple",
+					"color": "#8A1B93",
 					"name": "Primary"
 				},
 				{
-					"slug": "secondary",
-					"color": "#00a0d2",
-					"name": "Secondary"
+					"slug": "highlight-orange",
+					"color": "#F7AA11",
+					"name": "highlight"
 				},
 				{
-					"slug": "transparent",
-					"color": "transparent",
-					"name": "Transparent"
+					"slug": "off-black",
+					"color": "#350F38",
+					"name": "offBlack"
 				}
 			],
 			"gradients": [
 				{
-					"slug": "primary-white",
-					"gradient": "linear-gradient(#0073aa 49.9%,#fff 50%)",
-					"name": "Primary color to white"
+					"slug": "primary-transparent",
+					"gradient": "linear-gradient(180deg, #6A1671 22%, rgba(0, 0, 0, 0) 100%);",
+					"name": "Primary to transparent"
 				},
 				{
-					"slug": "white-primary",
-					"gradient": "linear-gradient(#fff 49.9%,#0073aa 50%)",
-					"name": "Horizontal white to Primary color"
-				}
-			],
-			"duotone": [
-				{
-					"colors": [ "#00a0d2", "#0073aa"],
-					"slug": "secondary-primary",
-					"name": "Secondary and primary"
-				},
-				{
-					"colors": ["#0073aa", "#f0f0f0"],
-					"slug": "primary-contrast",
-					"name": "Primary and Contrast"
+					"slug": "panel-primary-to-transparent",
+					"gradient": "linear-gradient(180deg, #6A1671 28%, rgba(106, 22, 113, 0) 100%)",
+					"name": "Panel version of primary to transparent"
 				}
 			]
 		},
 		"layout": {
-			"contentSize": "95vw",
-			"wideSize": "1100px"
+			"contentSize": "70vw",
+			"wideSize": "95vw"
 		},
 		"spacing": {
 			"units": [ "px", "em", "rem", "vh", "vw", "%" ]
@@ -74,19 +62,30 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-					"name": "System",
-					"slug": "system",
-					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
+					"name": "Primary",
+					"slug": "primary",
+					"fontFamily": "'Arcane Nine',sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Arcane Nine",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": ["file:./assets/fonts/ArcnaeNine.otf"]
+						}
+					]
 				},
 				{
-					"name": "Serif",
-					"slug": "serif",
-					"fontFamily": "\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif"
-				},
-				{
-					"name": "Monospace",
-					"slug": "monospace",
-					"fontFamily": "Consolas,Menlo,Monaco,\"SF Mono\",\"DejaVu Sans Mono\",\"Roboto Mono\",\"Courier New\",Courier,monospace"
+					"name": "Body",
+					"slug": "body",
+					"fontFamily": "Ubuntu, serif",
+					"fontFace": [
+						{
+							"fontFamily": "Ubuntu",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": ["https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"]
+						}
+					]
 				}
 			],
 			"fontSizes": [
@@ -135,127 +134,6 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/code": {
-				"color": {
-					"text": "var(--wp--preset--color--contrast)"
-				}
-			},
-			"core/comment-author-name": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/comment-date": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/comment-edit-link": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/post-comments-form": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/comment-reply-link": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/navigation": {
-				"css": "& .wp-block-site-title{ margin:0; font-weight:400;}",
-				"elements": {
-					"link": {
-						"color": {
-							"text": "var(--wp--preset--color--contrast)"
-						},
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"color": {
-								"text": "var(--wp--preset--color--contrast)"
-							},
-							"typography": {
-								"textDecoration": "none"
-							}
-						},
-						":focus": {
-							"color": {
-								"text": "var(--wp--preset--color--contrast)"
-							}
-						},
-						":active": {
-							"color": {
-								"text": "var(--wp--preset--color--contrast)"
-							}
-						}
-					}
-				}
-			},
-			"core/post-author-name": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/post-content": {
-				"spacing": {
-					"margin": {
-						"top": "var(--wp--preset--spacing--60)",
-						"bottom": "var(--wp--preset--spacing--60)"
-					}
-				}
-			},
-			"core/post-date": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/post-excerpt": {
-				"elements": {
-					"link": {
-						"typography": {
-							"fontSize": "var(--wp--preset--font-size--small)"
-						}
-					}
-				}
-			},
-			"core/post-featured-image": {
-				"spacing": {
-					"margin": {
-						"bottom": "var(--wp--preset--spacing--40)"
-					}
-				}
-			},
-			"core/post-template": {
-				"spacing": {
-					"padding": {
-						"top": "var(--wp--preset--spacing--50)",
-						"bottom": "var(--wp--preset--spacing--50)"
-					}
-				}
-			},
-			"core/post-terms": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
-			"core/query-pagination": {
-				"spacing": {
-					"padding": {
-						"top": "var(--wp--preset--spacing--50)"
-					}
-				}
-			},
-			"core/search": {
-				"css": ".wp-block-search__button-inside .wp-block-search__inside-wrapper{border: none;}",
-				"typography": {
-					"lineHeight": "1"
-				}
-			}
 		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
