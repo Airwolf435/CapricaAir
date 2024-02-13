@@ -27,6 +27,11 @@
 					"name": "Primary"
 				},
 				{
+					"slug": "form-interior",
+					"color": "#BF5C9D",
+					"name": "Form Interior"
+				},
+				{
 					"slug": "highlight-orange",
 					"color": "#F7AA11",
 					"name": "highlight"
