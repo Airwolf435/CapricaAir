@@ -29,8 +29,25 @@ html {
 body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
+	min-block-size: 100dvh;
 	background-image: url("./assets/images/websiteBackground.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.wp-site-blocks{
+	display: flex;
+	flex-direction: column;
+	min-block-size: 100dvh;
+}
+
+main{
+	flex-grow: 1;
+}
+
+.wp-block-social-links.is-style-logos-only .wp-social-link svg{
+	width: 74px;
+	height: auto;
+	color: var(--wp--preset--color--text-white);
 }
