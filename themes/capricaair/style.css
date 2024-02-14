@@ -51,3 +51,7 @@ main{
 	height: auto;
 	color: var(--wp--preset--color--text-white);
 }
+
+.wp-block-post-title{
+	display: none;
+}
