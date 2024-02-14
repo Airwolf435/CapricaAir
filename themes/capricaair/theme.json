@@ -139,20 +139,10 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/post-title": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--primary",
-					"textDecoration": "underline"
-				},
-				"color": {
-					"text": "var(--wp--preset--color--text-white)",
-					"background": "var(--wp--preset--color--contrast)"
-				}
-			}
 		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
-			"text": "var(--wp--preset--color--contrast)"
+			"text": "var(--wp--preset--color--text-white)"
 		},
 		"elements": {
 			"button": {
