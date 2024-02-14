@@ -17,14 +17,19 @@
 					"name": "white"
 				},
 				{
-					"slug": "contrast-purple",
+					"slug": "contrast",
 					"color": "#70177728",
 					"name": "Contrast"
 				},
 				{
-					"slug": "primary-purple",
+					"slug": "primary",
 					"color": "#8A1B93",
 					"name": "Primary"
+				},
+				{
+					"slug": "form-interior",
+					"color": "#BF5C9D",
+					"name": "Form Interior"
 				},
 				{
 					"slug": "highlight-orange",
@@ -40,12 +45,12 @@
 			"gradients": [
 				{
 					"slug": "primary-transparent",
-					"gradient": "linear-gradient(180deg, #6A1671 22%, rgba(0, 0, 0, 0) 100%);",
+					"gradient": "linear-gradient(180deg, #6A16713C 22%, rgba(0, 0, 0, 0) 100%);",
 					"name": "Primary to transparent"
 				},
 				{
 					"slug": "panel-primary-to-transparent",
-					"gradient": "linear-gradient(180deg, #6A1671 28%, rgba(106, 22, 113, 0) 100%)",
+					"gradient": "linear-gradient(180deg, #6A16713C 28%, rgba(106, 22, 113, 0) 100%)",
 					"name": "Panel version of primary to transparent"
 				}
 			]
@@ -91,41 +96,41 @@
 			"fontSizes": [
 				{
 					"slug": "small",
-					"size": "1.125rem",
+					"size": "1.5rem",
 					"name": "Small",
 					"fluid": false
 				},
 				{
 					"slug": "medium",
-					"size": "1.5rem",
+					"size": "1.75rem",
 					"name": "Medium",
 					"fluid": false
 				},
 				{
 					"slug": "large",
-					"size": "2rem",
+					"size": "2.5rem",
 					"name": "Large",
 					"fluid": {
-						"min": "1.75rem",
-						"max": "2rem"
+						"min": "2.25rem",
+						"max": "2.5rem"
 					}
 				},
 				{
 					"slug": "x-large",
-					"size": "2.75rem",
+					"size": "3.125rem",
 					"name": "XL",
 					"fluid": {
-						"min": "2.5rem",
-						"max": "2.75rem"
+						"min": "2.75rem",
+						"max": "3.125rem"
 					}
 				},
 				{
 					"slug": "xx-large",
-					"size": "3.75rem",
+					"size": "4.375rem",
 					"name": "XXL",
 					"fluid": {
-						"min": "3rem",
-						"max": "3.75rem"
+						"min": "3.25rem",
+						"max": "4.375rem"
 					}
 				}
 			]
@@ -135,10 +140,7 @@
 	"styles": {
 		"blocks": {
 		},
-		"color": {
-			"background": "var(--wp--preset--color--base)",
-			"text": "var(--wp--preset--color--contrast)"
-		},
+		
 		"elements": {
 			"button": {
 				"spacing": {
@@ -212,8 +214,8 @@
 		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--medium)",
-			"fontFamily": "var(--wp--preset--font-family--system)",
-			"lineHeight": "1.7"
+			"fontFamily": "var(--wp--preset--font-family--body)",
+			"lineHeight": "1.1"
 		}
 	},
 	"templateParts": [
