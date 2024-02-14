@@ -55,3 +55,106 @@ main{
 .wp-block-post-title{
 	display: none;
 }
+
+.is-style-text-input{
+	background-color: var(--wp--preset--color--form-interior);
+	color: #F0C0F1;
+	padding: 0.15em 0.5em;
+	min-width: 25ch;
+	border: 1px solid var(--wp--preset--color--highlight-orange);
+	border-radius: 6px;
+}
+
+.is-style-message-box{
+	background-color: var(--wp--preset--color--form-interior);
+	color: var(--wp--preset--color--text-white);
+	min-height: 12ch;
+	max-width: 60ch;
+	width: 100%;
+	border: 1px solid var(--wp--preset--color--highlight-orange);
+	border-radius: 6px;
+}
+
+.is-style-default-heading{
+	font-family: var(--wp--preset--font-family--primary) !important;
+	color: var(--wp--preset--color--text-white);
+	text-shadow: 10px 4px 4px #00000028;
+}
+
+.is-style-caprica-list{
+	font-family: var(--wp--preset--font-family--body) !important;
+	color: var(--wp--preset--color--text-white);
+	font-style: italic;
+}
+
+.is-style-caprica-preformat, .is-style-caprica-verse, .is-style-caprica-footnotes, .is-style-caprica-code, .is-style-caprica-details{
+	font-family: var(--wp--preset--font-family--body) !important;
+	color: var(--wp--preset--color--text-white);
+}
+
+.is-style-caprica-pullquote blockquote{
+	font-family: var(--wp--preset--font-family--body) !important;
+	color: var(--wp--preset--color--text-white);
+	font-size: 2.5rem;
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	text-align: start;
+}
+
+.is-style-caprica-pullquote cite{
+	display: block;
+	font-style: italic;
+	font-size: 1.5rem;
+	margin-block: auto;
+}
+
+.is-style-caprica-pullquote cite::before{
+	content: "-- ";
+}
+
+.is-style-caprica-table tbody{
+	border: 1px solid var(--wp--preset--color--text-white);
+}
+
+.is-style-caprica-table tr, .is-style-caprica-table td{
+	border: 1px solid var(--wp--preset--color--text-white);
+	font-family: var(--wp--preset--font-family--body);
+	color: var(--wp--preset--color--text-white);
+}
+
+.is-style-caprica-quote{
+	font-family: var(--wp--preset--font-family--body) !important;
+	color: var(--wp--preset--color--text-white);
+	font-size: 2rem;
+	padding: 0;
+	margin: 0;
+	text-align: start;
+	font-style: italic;
+}
+
+.is-style-video-polygotal{
+	max-height: 565px;
+	max-width: 1875px;
+	clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+	margin-inline: auto;
+	box-shadow: 10px 6px 10px #00000028;
+}
+
+.is-style-video-polygotal video{
+	position: relative;
+	top: -100px;
+}
+
+.is-style-heading-polygotal{
+	clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+	padding: 0.5em 2em;
+	display: block;
+	width: fit-content;
+	color: var(--wp--preset--color--text-white);
+	font-family: var(--wp--preset--font-family--primary);
+	background-color: #a200bf7a;
+	text-shadow: 10px 4px 4px #00000028;
+}
