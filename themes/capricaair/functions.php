@@ -22,5 +22,8 @@ function capricaair_styles() {
 		[],
 		wp_get_theme()->get( 'Version' )
 	);
+	// Credit to https://developer.wordpress.org/reference/functions/add_post_type_support/ comment by Marc
+	// Heatley that lead to adding this for featured images on posts to work.
+	add_theme_support( 'post-thumbnails' );
 }
 add_action( 'wp_enqueue_scripts', 'capricaair_styles' );
