@@ -52,19 +52,21 @@ main{
 	color: var(--wp--preset--color--text-white);
 }
 
+/* Remove title from document flow and hide it */
 .wp-block-post-title{
 	display: none;
 }
 
+/* Add back the title only for the woocommerce website */
 .woocommerce .wp-block-post-title{
 	display: block;
 }
-
+/* Apply brand colors to woo commerce buttons */
 .woocommerce .single_add_to_cart_button, .add_to_cart_button, .wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button, .woocommerce button *{
 	color: var(--wp--preset--color--text-white);
 	border: 1px solid var(--wp--preset--color--highlight-orange);
 }
-
+/* Continuation of button styling */
 .wc-block-cart__submit-button{
 	color: var(--wp--preset--color--text-white);
 	border: 1px solid var(--wp--preset--color--highlight-orange);
