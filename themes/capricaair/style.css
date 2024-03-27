@@ -73,7 +73,7 @@ main{
 }
 
 /* Start of custom template class styles */
-
+/* Initial prototyping style,  */
 .is-style-text-input{
 	background-color: var(--wp--preset--color--form-interior);
 	color: #F0C0F1;
@@ -93,23 +93,27 @@ main{
 	border-radius: 6px;
 }
 
+/* Custom default heading, requires the !important to override some default settings */
 .is-style-default-heading{
 	font-family: var(--wp--preset--font-family--primary) !important;
 	color: var(--wp--preset--color--text-white);
 	text-shadow: 10px 4px 4px #00000028;
 }
 
+/* Caprica Air list styling */
 .is-style-caprica-list{
 	font-family: var(--wp--preset--font-family--body) !important;
 	color: var(--wp--preset--color--text-white);
 	font-style: italic;
 }
 
+/* Misc styling for input blocks that are unlikely to be used in this theme */
 .is-style-caprica-preformat, .is-style-caprica-verse, .is-style-caprica-footnotes, .is-style-caprica-code, .is-style-caprica-details{
 	font-family: var(--wp--preset--font-family--body) !important;
 	color: var(--wp--preset--color--text-white);
 }
 
+/* Caprica air custom pullquote styling */
 .is-style-caprica-pullquote blockquote{
 	font-family: var(--wp--preset--font-family--body) !important;
 	color: var(--wp--preset--color--text-white);
@@ -121,7 +125,7 @@ main{
 	margin: 0;
 	text-align: start;
 }
-
+/* Citation for pullquote styling */
 .is-style-caprica-pullquote cite{
 	display: block;
 	font-style: italic;
@@ -129,6 +133,7 @@ main{
 	margin-block: auto;
 }
 
+/* Changed the marker for pullquotes */
 .is-style-caprica-pullquote cite::before{
 	content: "-- ";
 }
