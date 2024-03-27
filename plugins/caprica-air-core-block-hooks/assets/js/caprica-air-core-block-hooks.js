@@ -1,3 +1,4 @@
+// Below are all the custom hooks for all text type blocks
 wp.domReady(function (){
     wp.blocks.registerBlockStyle( 'core/quote', {
         name: 'test-style',

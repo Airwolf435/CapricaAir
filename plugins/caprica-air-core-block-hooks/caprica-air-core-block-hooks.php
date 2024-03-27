@@ -3,6 +3,7 @@
  * Plugin Name: Caprica Air Core Block Hooks
  */
 
+// Function that add_action registers so WP knows to look at caprica-air-core-block-hooks.js for custom style classes.
 function caprica_air_enqueue_block_editor_assets() {
     wp_enqueue_script(
         'caprica-air-core-block-hooks',
