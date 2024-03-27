@@ -56,6 +56,15 @@ main{
 .wp-block-post-title{
 	display: none;
 }
+/* Overide for previous css rule for use within query blocks where title is important */
+.wp-block-query .wp-block-post-title{
+	display: block;
+}
+
+/* Overide default color used by anchors inside query loop posts */
+.wp-block-query .wp-block-post-title a{
+	color: var(--wp--preset--color--text-white);
+}
 
 /* Add back the title only for the woocommerce website */
 .woocommerce .wp-block-post-title{
