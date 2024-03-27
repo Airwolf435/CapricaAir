@@ -83,4 +83,10 @@ wp.domReady(function (){
         name: 'heading-polygotal',
         label: 'Polygotal',
     } );
+
+    wp.blocks.registerBlockStyle( 'woocommerce/product-button', {
+        name: 'capricaAir-product-button',
+        label: 'Caprica Air',
+    } );
 })
+

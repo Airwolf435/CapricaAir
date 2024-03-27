@@ -56,6 +56,22 @@ main{
 	display: none;
 }
 
+.woocommerce .wp-block-post-title{
+	display: block;
+}
+
+.woocommerce .single_add_to_cart_button, .add_to_cart_button, .wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button, .woocommerce button *{
+	color: var(--wp--preset--color--text-white);
+	border: 1px solid var(--wp--preset--color--highlight-orange);
+}
+
+.wc-block-cart__submit-button{
+	color: var(--wp--preset--color--text-white);
+	border: 1px solid var(--wp--preset--color--highlight-orange);
+}
+
+/* Start of custom template class styles */
+
 .is-style-text-input{
 	background-color: var(--wp--preset--color--form-interior);
 	color: #F0C0F1;
@@ -135,6 +151,7 @@ main{
 	font-style: italic;
 }
 
+/* Uses a clipping path to crop the video into a polygon. Does not support shadows due to using a clipping path. */
 .is-style-video-polygotal{
 	max-height: 565px;
 	max-width: 1875px;
@@ -143,11 +160,14 @@ main{
 	box-shadow: 10px 6px 10px #00000028;
 }
 
+
+/* Position shift due to the polygon shaping to make it more centered */
 .is-style-video-polygotal video{
 	position: relative;
 	top: -100px;
 }
 
+/* Simmilar to the videos this crops the header into a polygon */
 .is-style-heading-polygotal{
 	clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
 	padding: 0.5em 2em;
@@ -157,4 +177,9 @@ main{
 	font-family: var(--wp--preset--font-family--primary);
 	background-color: #a200bf7a;
 	text-shadow: 10px 4px 4px #00000028;
+}
+
+/* Forces buttons to use the off-white color specified in theme.json */
+.is-style-capricaAir-product-button > *{
+	color: var(--off-white);
 }
