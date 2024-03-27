@@ -3,6 +3,7 @@
  * Plugin Name: Caprica Air Post Types
  */
 
+// Function to register the custom post type, and its specific supports and names.
 function caprica_air_custom_posts_type(){
     register_post_type('capricaair_events', [
         "labels" => [
