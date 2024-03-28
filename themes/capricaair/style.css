@@ -66,6 +66,11 @@ main{
 	color: var(--wp--preset--color--text-white);
 }
 
+/* Hide featured images on posts, does not affect queryloop peaks */
+.single .wp-block-post-featured-image{
+	display: none;
+}
+
 /* Add back the title only for the woocommerce website */
 .woocommerce .wp-block-post-title{
 	display: block;
