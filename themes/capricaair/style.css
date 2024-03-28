@@ -71,17 +71,6 @@ main{
 	display: none;
 }
 
-.page-numbers, .wp-block-query-pagination-next, .wp-block-query-pagination-previous{
-	color: var(--wp--preset--color--text-white);
-	text-decoration: none;
-}
-
-.page-numbers:has(:focus, :hover), .wp-block-query-pagination-next:has(:focus, :hover), .wp-block-query-pagination-previous:has(:focus,:hover){
-	color: var(--wp--preset--color--text-white) !important;
-	text-decoration: underline;
-	text-shadow: 0.25em 0.25em 0.5em var(--wp--preset--color--text-white);
-}
-
 /* Add back the title only for the woocommerce website */
 .woocommerce .wp-block-post-title{
 	display: block;
